@@ -10,7 +10,7 @@ I will walk you through this project so you can understand how to run this **Dja
  - Run `docker-compose up -d`.
  - After the building process open http://127.0.0.1:800/ you will see this home page.
 	![alt text](https://github.com/s-azaar/monitor-app/blob/ec0d7e7ea31fc4ed81d93bd23ab540ef78e94bef/img/home.png)
- - And if you tried to access any of the below buttons you will not see anything there, cuz we didn't start the **cron** job to start collect the server's usages.
+ - And if you tried to access any of the below buttons you will not see anything there, cuz we didn't start the **cron** job to start collecting the server's usages.
  - So get your hands dirty and make sure to do the following things in order: 
 	 - Make sure you downloaded the **cron** software.
 	 - open crontab file by using this command `crontab -e`.
