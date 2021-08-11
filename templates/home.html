@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Monitoring App{% endblock title %}
+
+{% block content %}
+  <br/>
+  <div class="jumbotron">
+    <h1 class="display-4">Monitoring app</h1>
+    <p class="lead">Navigate between the below buttons to view the Server's usages.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'cpu' %}" role="button">CPU Usage</a>
+        <a class="btn btn-primary btn-lg" href="{% url 'memory' %}" role="button">Memory Usage</a>
+        <a class="btn btn-primary btn-lg" href="{% url 'disk' %}" role="button">Disk Usage</a>
+    </p>
+  </div>
+{% endblock content %}

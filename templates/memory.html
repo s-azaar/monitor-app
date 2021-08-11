@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Memory Usage{% endblock title %}
+
+{% block content %}
+  {% for info in object_list %}
+    <div class="card">
+      <div class="card-header">
+        <span class="font-weight-bold">Status At {{ info.timestamp }}</span> &middot;
+      </div>
+      <div class="card-body">
+        <h1>Free memory = {{ info.free }} while used memory = {{ info.used }}</h1>
+      </div>
+    </div>
+    <br />
+  {% endfor %}
+{% endblock content %}
