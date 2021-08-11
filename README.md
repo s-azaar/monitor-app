@@ -24,3 +24,7 @@ I will walk you through this project so you can understand how to run this **Dja
  - ![alt text](https://github.com/s-azaar/monitor-app/blob/ec0d7e7ea31fc4ed81d93bd23ab540ef78e94bef/img/CPU.png)
  - ![alt text](https://github.com/s-azaar/monitor-app/blob/ec0d7e7ea31fc4ed81d93bd23ab540ef78e94bef/img/Disk.png)
  - ![alt text](https://github.com/s-azaar/monitor-app/blob/ec0d7e7ea31fc4ed81d93bd23ab540ef78e94bef/img/Memory.png)
+
+
+
+ - You can find my image on docker hub, kindly use this docker `pull sazaar/frepo:v1`
