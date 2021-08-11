@@ -27,4 +27,4 @@ I will walk you through this project so you can understand how to run this **Dja
 
 
 
- - You can find my image on docker hub, kindly use this docker `pull sazaar/frepo:v1`
+ - You can find my image on docker hub, kindly use this command `docker pull sazaar/frepo:v1`
